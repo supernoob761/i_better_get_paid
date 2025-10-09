@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusConnect - École de Développement Informatique</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+               <nav>
+        <div class="container">
+            <a href="Home.html" class="logo">Campus<span>Connect</span></a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="Home.html" onclick="closeMenu()">Home</a></li>
+                <li><a href="formations.html" onclick="closeMenu()">formations</a></li>
+                <li><a href="events.html" onclick="closeMenu()">events</a></li>
+                <li><a href="contact.html" onclick="closeMenu()">contact</a></li>
+                <li><a href="account.html" onclick="closeMenu()">Galary</a></li>
+            </ul>
+        </div>
+    </nav> 
+<section id="formations">
+        <div class="section-header">
+            <span class="tag">Our Programs</span>
+            <h2>Excellence Training</h2>
+            <p>Intensive and practical courses to propel you into the tech industry</p>
+        </div>
+        <div class="formations-grid">
+            <div class="formation-card">
+                <div class="image">
+                    <img src="https://placehold.co/600x400" alt="Lorem">
+                </div>
+                <div class="content">
+                    <span class="badge">6 mois</span>
+                    <h3>Full-Stack Web Development</h3>
+                    <p>Master the complete ecosystem of the modern web: HTML, CSS, JavaScript, React, Node.js, and more. Build powerful, scalable applications.</p>
+                    <a href="#" class="learn-more">more →</a>
+                </div>
+            </div>
+            <div class="formation-card">
+                <div class="image">
+                    <img src="https://placehold.co/600x400" alt="Ipsum">
+                </div>
+                <div class="content">
+                    <span class="badge">5 mois</span>
+                    <h3>Mobile Development</h3>
+                    <p>Develop native iOS and Android apps with React Native and Flutter. From design to deployment on stores.</p>
+                    <a href="#" class="learn-more">more →</a>
+                </div>
+            </div>
+            <div class="formation-card">
+                <div class="image">
+                    <img src="https://placehold.co/600x400" alt="Dolor">
+                </div>
+                <div class="content">
+                    <span class="badge">8 mois</span>
+                    <h3>Artificial Intelligence & Data Science</h3>
+                    <p>Plongez dans le machine learning et le deep learning. Analysez des données et créez des modèles prédictifs avec Python et TensorFlow.</p>
+                    <a href="#" class="learn-more">more →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                <script src="scripts.js"></script>
+
+    </body>
+</html>
